@@ -57,9 +57,9 @@ void printList(struct node* head){
     }
 }
 int main(){
-    addFirst(10);
-    addFirst(20);
-    addFirst(30);
-    deleteLast(head);
+    addLast(10);
+    addLast(20);
+    addLast(30);
+    deleteFirst(head);
     printList(head);
 }
