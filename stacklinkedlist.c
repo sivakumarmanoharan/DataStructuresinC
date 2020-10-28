@@ -60,6 +60,6 @@ int main(){
     addLast(10);
     addLast(20);
     addLast(30);
-    deleteFirst(head);
+    deleteLast(head);
     printList(head);
 }
